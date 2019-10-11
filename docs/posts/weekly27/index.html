@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>MeiK&#39;s blog  | 每周分享第 27 期</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="每周分享第 27 期" />
+<meta property="og:description" content="记录我过去一周看到的值得分享的东西，每周日发布。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://weekly.meik2333.com/posts/weekly27/" />
+<meta property="article:published_time" content="2019-09-08T21:48:21+00:00" />
+<meta property="article:modified_time" content="2019-09-08T21:48:21+00:00" />
+<meta itemprop="name" content="每周分享第 27 期">
+<meta itemprop="description" content="记录我过去一周看到的值得分享的东西，每周日发布。">
+
+
+<meta itemprop="datePublished" content="2019-09-08T21:48:21&#43;00:00" />
+<meta itemprop="dateModified" content="2019-09-08T21:48:21&#43;00:00" />
+<meta itemprop="wordCount" content="114">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="每周分享第 27 期"/>
+<meta name="twitter:description" content="记录我过去一周看到的值得分享的东西，每周日发布。"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://weekly.meik2333.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      MeiK&#39;s blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">每周分享第 27 期</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-09-08T21:48:21Z">September 8, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>记录我过去一周看到的值得分享的东西，每周日发布。</p>
+
+<h2 id="随笔">随笔</h2>
+
+<h3 id="鸽还是不鸽-这是一个问题">鸽还是不鸽，这是一个问题</h3>
+
+<p>当你以为我不会鸽的时候我鸽了，那我确实是鸽了。</p>
+
+<p>当你以为我鸽了的时候我没有鸽，那我到底是不是鸽了呢？</p>
+
+<h3 id="为什么微信好友上限为-5040">为什么微信好友上限为 5040</h3>
+
+<p>微信好友人数上限是 5040 人，为什么是 5040 呢？这个还跟哲学有关，在着名古希腊哲学家柏拉图《理想国》书中畅想了完美的城邦人数，理想王国的人数就是 5040 人。</p>
+
+<h3 id="将博客迁回国内服务器">将博客迁回国内服务器</h3>
+
+<p>之前我的每周分享放在我国外的服务器上，静态资源使用了阿里云的 CDN ，然而这一套是有很多问题的。</p>
+
+<p>首先是我的服务器时常被墙，某些时候可能一连几周都无法访问，读者无法看，我写了也没法上传。</p>
+
+<p>然后就是阿里云体验过于垃圾的服务，弄个 CDN 需要绕很多让人摸不到头脑的弯子，令人疑惑阿里云的产品是如何拥有如此与众不同的脑回路的。</p>
+
+<p>因此，我用了半天时间将博客迁移回了国内的服务器上，所有静态资源也没有经过 CDN ，直接放在了服务器上面。同时，为了解决我服务器的小水管静态资源加载太慢的问题，我在外层套了个免费的 CloudFlare 服务，用 CF 来代理我博客的所有静态资源。</p>
+
+<p>这样的效果就是，虽然我服务器带宽不高，但用户依然能很快的加载完我的页面。同时我也不需要为了静态资源而额外付费，只需要一个最基本的服务器即可。如果使用 GitHub Pages 的话，连服务器都不需要了，体验极佳。</p>
+
+<h3 id="不要信任小云服务商">不要信任小云服务商</h3>
+
+<p>我之前在一个小的服务商那里买了一台 VPS ，结果 CPU 使用超标（人家通知是这么说的，实际上我服务器里啥也没跑），然后人家直接给我把系统重装了。还有一家，一到流量高峰期，分给我的带宽就极低，基本无法使用。</p>
+
+<p>从网上各种案例来看，小的服务商可能会随时跑路，如果要购买这种服务商的服务的话，最好还是按月结，这样就算服务出了什么问题，损失也不会太大。</p>
+
+<h2 id="新闻">新闻</h2>
+
+<h3 id="一家成人电影公司烧掉了15000名演员的真实资料-https-www-huxiu-com-article-316581-html"><a href="https://www.huxiu.com/article/316581.html">一家成人电影公司烧掉了15000名演员的真实资料</a></h3>
+
+<p>最近一则消息不胫而走：成人电影制作公司Bang Bros买下了一个叫作PornWikiLeaks的网站，然后，把所有数据都付之一炬。</p>
+
+<p>对于成人影片演员们来说，PornWikiLeaks就像是一个如影随形的噩梦。超过15000名演员的真实信息被列在上面，其中不少还包括了家庭信息、联系方式甚至家庭住址。相比起来，这个网站在用词上对他们的嘲弄和羞辱所带来的影响，反倒只在其次了。</p>
+
+<h3 id="uk-isp-group-names-mozilla-internet-villain-for-supporting-dns-over-https-https-www-zdnet-com-article-uk-isp-group-names-mozilla-internet-villain-for-supporting-dns-over-https"><a href="https://www.zdnet.com/article/uk-isp-group-names-mozilla-internet-villain-for-supporting-dns-over-https/">UK ISP group names Mozilla &lsquo;Internet Villain&rsquo; for supporting &lsquo;DNS-over-HTTPS&rsquo;</a></h3>
+
+<p>因为 Mozilla 的浏览器支持了 DoH （一种隐藏自己 DNS 查询的技术），英国 ISP 将其评为年度 Internet Villain （互联网罪犯）。</p>
+
+<h2 id="技术分享">技术分享</h2>
+
+<h3 id="what-is-the-difference-between-dns-over-tls-dns-over-https-https-www-thesslstore-com-blog-dns-over-tls-vs-dns-over-https"><a href="https://www.thesslstore.com/blog/dns-over-tls-vs-dns-over-https/">What is the difference between DNS over TLS &amp; DNS over HTTPS?</a></h3>
+
+<p>DoH 和 DoT 是两种隐藏自己 DNS 查询的技术，本文介绍了这两种方式的原理和区别。</p>
+
+<h3 id="realworld-https-github-com-gothinkster-realworld"><a href="https://github.com/gothinkster/realworld">RealWorld</a></h3>
+
+<p>使用多种不同的技术构建仿 medium 的网站，包括超过 20 种前端框架与超过 30 种后端框架，每种都由对应方向的优秀程序员贡献，是学习一门新的框架的优秀教材。</p>
+
+<h3 id="华为方舟编译器开源-https-www-openarkcompiler-cn-home"><a href="https://www.openarkcompiler.cn/home">华为方舟编译器开源</a></h3>
+
+<p>前段时间最受瞩目的华为方舟编译器终于正式开源了，网上声音褒贬不一，大部分人还是选择继续观望，看看实际接入的效果再做打算。</p>
+
+<h3 id="git-fls-https-git-lfs-github-com"><a href="https://git-lfs.github.com/">Git fls</a></h3>
+
+<p>在 GitHub 中，一个仓库里单个文件超过 50MB 就会有警告，一个文件超过 100MB 就会提交失败。</p>
+
+<p>GitHub 开源的 Git fls 就是为了解决这个问题而出现的，通过将文件单独保存，只在仓库中保留文件指针的方式，可以将单个文件的大小限制提高到 2GB 。</p>
+
+<h2 id="表情包">表情包</h2>
+
+<p>囤一波，下周一块发。</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://weekly.meik2333.com" >
+    &copy; 2019 MeiK&#39;s blog
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
