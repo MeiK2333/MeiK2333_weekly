@@ -1,4 +1,4 @@
-baseURL = "https://meik2333.github.io/weekly"
+baseURL = "https://weekly.meik2333.com"
 languageCode = "en-us"
 title = "MeiK's blog"
 publishDir = "docs"

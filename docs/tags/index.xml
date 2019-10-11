@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MeiK&#39;s blog</title>
-    <link>https://meik2333.github.io/weekly/tags/</link>
+    <link>https://weekly.meik2333.com/tags/</link>
     <description>Recent content in Tags on MeiK&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://meik2333.github.io/weekly/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://weekly.meik2333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
