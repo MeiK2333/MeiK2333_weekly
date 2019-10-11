@@ -1,0 +1,5 @@
+baseURL = "https://meik2333.github.io/weekly"
+languageCode = "en-us"
+title = "MeiK's blog"
+publishDir = "docs"
+theme = "ananke"
