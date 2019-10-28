@@ -246,3 +246,11 @@ Uber 开源的 Go 语言编码风格指导。
 <div style="text-align:center">
 <img src="/weekly28/my-code.png">
 </div>
+
+## 音乐分享
+
+### 野狼 Disco
+
+<audio src="/weekly28/宝石Gem,陈伟霆-野狼Disco（feat.陈伟霆）.flac" controls="controls">
+Your browser does not support the audio tag.
+</audio>
