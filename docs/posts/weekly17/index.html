@@ -3,19 +3,14 @@
 <head>
     <meta charset="utf-8">
     <link crossorigin="anonymous" media="all"
-        integrity="sha512-4bmhxCob3U2WoK8HVl7UacoDdNejo+50BlGN9SdGtjXbsCQwp7uLtntLkL9a9CmgLPZ8L9lsOZL0ieINT9yHeA=="
         rel="stylesheet"
-        href="https://github.githubassets.com/assets/frameworks-2fd1891c9e6292401a1a3de8bc3f747f.css" />
+        href="https://weekly.meik2333.com/css/frameworks.css" />
     <link crossorigin="anonymous" media="all"
-        integrity="sha512-oF4BPgLoJ4I8H6vdTzR4cGdwAF4bC/bdeI7zsQ/xzUbUWc+JU6xeSbOxIgOyelZP+1ESc5qfwDKzYQfdDNlX5Q=="
-        rel="stylesheet" href="https://github.githubassets.com/assets/github-5238587550334d8b43fd71226c6de55c.css" />
+        rel="stylesheet" href="https://weekly.meik2333.com/css/github.css" />
     <meta name="viewport" content="width=device-width">
 
-    <title>MeiK&#39;s blog</title>
+    <title>每周分享第 17 期 - MeiK&#39;s blog</title>
 
-    <meta name="description" content="">
-    <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://weekly.meik2333.com/images/favicon.ico">
     <meta name="theme-color" content="#1e2327">
 </head>
@@ -45,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
             <a class="Header-link" href="https://weekly.meik2333.com/" aria-label="Homepage"
                 data-ga-click="Header, go to dashboard, icon:logo">
                 <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
@@ -80,10 +75,10 @@
                             <a class="avatar mr-1" href="https://weekly.meik2333.com/about/"><img
                                     src="https://weekly.meik2333.com/images/avatar.png" width="26" height="26"></a>
                             <span class="author"><a
-                                    href="https://weekly.meik2333.com/about/">MeiK</a></span>
+                                    href="https://weekly.meik2333.com/">MeiK</a></span>
                             <span class="path-divider">/</span>
                             <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="/posts/weekly17/">每周分享第 17 期</a></strong>
+                                    href="https://weekly.meik2333.com/posts/weekly17/">每周分享第 17 期</a></strong>
 
                             <div class="d-block text-small text-gray">
                                 Created <time-ago datetime="2019-03-21" class="no-wrap"
@@ -108,8 +103,7 @@
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
                                 1292 Words
-                                <span class="file-info-divider"></span>
-                                1 min
+                                
                             </div>
                         </div>
 
@@ -221,29 +215,29 @@ Your browser does not support the audio tag.
 </div>
 
 <script crossorigin="anonymous"
-    integrity="sha512-P7QbxhTkfogU8wuMH3u9CEiNA9esk13jExiHBnpW+Kh9fKban2yNVEok9xzV2GqSuEU3ZbCKe0GooUfc6szm4g=="
-    type="application/javascript" src="https://github.githubassets.com/assets/frameworks-e0eb4964.js"></script>
+    type="application/javascript" src="https://weekly.meik2333.com/js/frameworks.js"></script>
 
 <script crossorigin="anonymous" async="async"
-    integrity="sha512-UjV5G8yJkGcA9OW3TPPQx+Rk3uyOfOVmYEWLj7ADv81bEy8Jp9oDULYFdQxOxJq518DFlt0+dBqobwvarLrNgA=="
-    type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-35e32afb.js"></script>
+    type="application/javascript" src="https://weekly.meik2333.com/js/github-bootstrap.js"></script>
 <script>
     let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
     const pinned_posts = document.getElementsByName('pinned-post');
     for (let i = 0; i < pinned_posts.length; i++) {
         for (let j = 0; j < classs.length; j++) {
-            try {
-                pinned_posts[i].getElementsByTagName('p')[0].classList.add(classs[j]);
-            } catch {}
+            const ps = pinned_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
         }
     }
     classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
     const posts_posts = document.getElementsByName('posts-post');
     for (let i = 0; i < posts_posts.length; i++) {
         for (let j = 0; j < classs.length; j++) {
-            try {
-                posts_posts[i].getElementsByTagName('p')[0].classList.add(classs[j]);
-            } catch {}
+            const ps = posts_posts[i].getElementsByTagName('p');
+            for (let k = 0; k < ps.length; k++) {
+                ps[k].classList.add(classs[j]);
+            }
         }
     }
 </script>
