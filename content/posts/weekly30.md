@@ -182,7 +182,7 @@ TiDB 是一个使用 Go 语言开发的分布式数据库，配合 WebAssembly �
 ### 用这个去吃喜欢吃的东西吧
 
 <div style="text-align:center">
-<img src="/weekly30/用这个去吃喜欢吃的东西吧.jpg">
+<img src="/weekly30/用这个去吃喜欢吃的东西吧.jpeg">
 </div>
 
 ### 招聘
