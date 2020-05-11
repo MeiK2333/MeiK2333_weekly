@@ -34,7 +34,7 @@ if (!doNotTrack) {
     <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
         <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
     </span>
-    <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+    <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
         <div class="Header-item d-none d-lg-flex">
             <a class="Header-link" href="https://weekly.meik2333.com/" aria-label="Homepage"
                 data-ga-click="Header, go to dashboard, icon:logo">
@@ -54,6 +54,9 @@ if (!doNotTrack) {
                 </div>
             </div>
         </div>
+        <nav class="d-flex" aria-label="Global">
+            <a class="js-selected-navigation-item Header-link py-lg-3">&nbsp;</a>
+        </nav>
         <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
             <a class="Header-link" href="https://weekly.meik2333.com/" aria-label="Homepage"
                 data-ga-click="Header, go to dashboard, icon:logo">
@@ -286,28 +289,6 @@ if (!doNotTrack) {
 
 <script crossorigin="anonymous" async="async"
     type="application/javascript" src="https://weekly.meik2333.com/js/github-bootstrap.js"></script>
-<script>
-    let classs = ['pinned-item-desc', 'text-gray', 'text-small', 'd-block', 'mt-2', 'mb-3'];
-    const pinned_posts = document.getElementsByName('pinned-post');
-    for (let i = 0; i < pinned_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = pinned_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-    classs = [ 'd-inline-block', 'text-gray', 'mb-2', 'pr-4'];
-    const posts_posts = document.getElementsByName('posts-post');
-    for (let i = 0; i < posts_posts.length; i++) {
-        for (let j = 0; j < classs.length; j++) {
-            const ps = posts_posts[i].getElementsByTagName('p');
-            for (let k = 0; k < ps.length; k++) {
-                ps[k].classList.add(classs[j]);
-            }
-        }
-    }
-</script>
 
 </body>
 
