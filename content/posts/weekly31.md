@@ -103,7 +103,7 @@ Mozilla 开放的网站，可以检测自己是否处于数据外泄事件之中
 </div>
 
 <div style="text-align:center">
-<img src="/weekly31/15.git">
+<img src="/weekly31/15.gif">
 </div>
 
 <div style="text-align:center">
