@@ -192,5 +192,5 @@ Your browser does not support the audio tag.
 ### 千层套路
 
 <video src="/weekly33/千层套路.mp4" controls="controls" width="100%">
-Your browser does not support the audio tag.
+Your browser does not support the video tag.
 </video>
