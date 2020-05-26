@@ -34,7 +34,7 @@ date: 2020-05-24T16:54:35+08:00
 ### 多搞点技术分享
 
 <div style="text-align:center">
-<img src="/weekly33/gkd.png" style="max-width: 640px">
+<img src="/weekly33/gkd.png">
 </div>
 
 在上周的每周分享里，有读者要我多来点技术分享，我想了下，之前我分享的东西确实太少了，都是我自己在用的东西，还有很多有价值的项目没有分享出来。
@@ -70,7 +70,7 @@ date: 2020-05-24T16:54:35+08:00
 安装这五个插件后，我们打开头条，瞬间弹出三个提醒：
 
 <div style="text-align:center">
-<img src="/weekly33/toutiao.png" style="max-width: 640px">
+<img src="/weekly33/toutiao.png">
 </div>
 
 
@@ -84,99 +84,99 @@ date: 2020-05-24T16:54:35+08:00
 ## 表情包
 
 <div style="text-align:center">
-<img src="/weekly33/images/1.gif" style="max-width: 640px">
+<img src="/weekly33/images/1.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/11.gif" style="max-width: 640px">
+<img src="/weekly33/images/11.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/13.jpg" style="max-width: 640px">
+<img src="/weekly33/images/13.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/15.jpg" style="max-width: 640px">
+<img src="/weekly33/images/15.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/17.jpg" style="max-width: 640px">
+<img src="/weekly33/images/17.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/19.jpg" style="max-width: 640px">
+<img src="/weekly33/images/19.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/20.jpg" style="max-width: 640px">
+<img src="/weekly33/images/20.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/22.jpg" style="max-width: 640px">
+<img src="/weekly33/images/22.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/24.png" style="max-width: 640px">
+<img src="/weekly33/images/24.png">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/4.gif" style="max-width: 640px">
+<img src="/weekly33/images/4.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/6.jpg" style="max-width: 640px">
+<img src="/weekly33/images/6.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/8.webp" style="max-width: 640px">
+<img src="/weekly33/images/8.webp">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/10.gif" style="max-width: 640px">
+<img src="/weekly33/images/10.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/12.gif" style="max-width: 640px">
+<img src="/weekly33/images/12.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/14.jpg" style="max-width: 640px">
+<img src="/weekly33/images/14.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/16.jpg" style="max-width: 640px">
+<img src="/weekly33/images/16.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/18.jpg" style="max-width: 640px">
+<img src="/weekly33/images/18.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/2.jpg" style="max-width: 640px">
+<img src="/weekly33/images/2.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/21.jpg" style="max-width: 640px">
+<img src="/weekly33/images/21.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/23.jpg" style="max-width: 640px">
+<img src="/weekly33/images/23.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/3.jpg" style="max-width: 640px">
+<img src="/weekly33/images/3.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/5.gif" style="max-width: 640px">
+<img src="/weekly33/images/5.gif">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/7.jpg" style="max-width: 640px">
+<img src="/weekly33/images/7.jpg">
 </div>
 
 <div style="text-align:center">
-<img src="/weekly33/images/9.jpg" style="max-width: 640px">
+<img src="/weekly33/images/9.jpg">
 </div>
 
 ## 音乐分享
