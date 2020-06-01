@@ -114,6 +114,6 @@ WireGuard 是一种相对较新的 VPN 隧道协议，其目的是非常快速�
 
 ### 飯田舞 (いいだ まい) - キミの隣で... (在你的身旁・・・)
 
-<audio src="/weekly34/飯田舞 (いいだ まい)-キミの隣で... (在你的身旁・・・).mp3" controls="controls">
+<audio src="/weekly34/music.mp3" controls="controls">
 Your browser does not support the audio tag.
 </audio>
