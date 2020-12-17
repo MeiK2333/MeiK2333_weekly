@@ -14,3 +14,9 @@ googleAnalytics = "UA-107784973-4"
   twitter = "MeiK2333"
   email = "meik2333@gmail.com"
   utterances = "MeiK2333/MeiK2333.github.io"
+  rss = true
+  lastmod = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
