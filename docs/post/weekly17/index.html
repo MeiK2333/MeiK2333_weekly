@@ -9,6 +9,7 @@
     <link rel="stylesheet" href='https://weekly.meik2333.com/css/github-style.css' />
     <link rel="stylesheet" href='https://weekly.meik2333.com/css/light.css' />
     <link rel="stylesheet" href='https://weekly.meik2333.com/css/dark.css' />
+    <link rel="stylesheet" href='https://weekly.meik2333.com/css/syntax.css' />
     <title>每周分享第 17 期 - MeiK&#39;s blog</title>
     <link rel="icon" type="image/x-icon" href='https://weekly.meik2333.com/images/favicon.ico'>
     <meta name="theme-color" content="#1e2327">
@@ -149,6 +150,11 @@
                     Thu, 21 Mar 2019 15:42:31 &#43;0000</relative-time>
 
                   
+                  <span class="file-info-divider"></span>
+                  Modified <relative-time datetime="Fri, 11 Oct 2019 20:51:18 &#43;0800"
+                    class="no-wrap">
+                    Fri, 11 Oct 2019 20:51:18 &#43;0800</relative-time>
+                  
                 </div>
               </div>
             </div>
@@ -220,7 +226,7 @@
 <p>bbr 是谷歌开源的拥塞控制算法，在现行的网络环境中比传统的拥塞控制算法有更好的体验。YouTube 已经上了 bbr 技术。</p>
 
 <p>个人的服务器也可以开启 bbr 来提高网络 IO，但服务器开启 bbr 后有可能会无法访问，此时可以通过关闭防火墙来解决。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">systemctl stop firewalld.service
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">systemctl stop firewalld.service
 systemctl disable firewalld.service</code></pre></div>
 <p>当然，这种方法虽然简单粗暴，但有很多安全隐患，没啥用的云服务也就算了，自己的服务器可不要这样搞……</p>
 
@@ -239,7 +245,7 @@ systemctl disable firewalld.service</code></pre></div>
 <p>rfc 不只有严谨的规定，还有很多有趣的东西，比如<a href="https://tools.ietf.org/html/rfc2324">这个</a>。</p>
 
 <p>你可以使用 <code>cUrl</code> 来看到这个茶壶：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl http://httpbin.org/status/418</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl http://httpbin.org/status/418</code></pre></div>
 <h2 id="视频分享">视频分享</h2>
 
 <p>表情包最近看来还要一直鸽了，不过我三月底就要离职回学校了，到时候就有时间收集表情包了。</p>

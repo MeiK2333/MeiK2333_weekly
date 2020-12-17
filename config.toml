@@ -4,6 +4,7 @@ title = "MeiK's blog"
 publishDir = "docs"
 theme = "github-style"
 pygmentsCodeFences = true
+pygmentsUseClasses = true
 googleAnalytics = "UA-107784973-4"
 
 [params]
@@ -15,6 +16,7 @@ googleAnalytics = "UA-107784973-4"
   email = "meik2333@gmail.com"
   utterances = "MeiK2333/MeiK2333.github.io"
   rss = true
+  location = "China"
   lastmod = true
 
 [frontmatter]
